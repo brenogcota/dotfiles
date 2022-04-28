@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/home/breno/dev/codeby/usaflex'
+let g:netrw_dirhist_8='/home/breno/dev/codeby/usaflex/usaflex.custom-login'
+let g:netrw_dirhist_7='/home/breno/dev/codeby/usaflex/usaflex.custom-login/react'
+let g:netrw_dirhist_6='/home/breno/dev/codeby/usaflex/usaflex.custom-login/react/Components'
+let g:netrw_dirhist_5='/home/breno/dev/codeby/usaflex/usaflex.custom-login/react/Components/UserIcon'
+let g:netrw_dirhist_4='/home/breno/dev/codeby/usaflex/usaflex.custom-login/react/Components'
+let g:netrw_dirhist_3='/home/breno/dev/codeby/usaflex/usaflex.custom-login/react'
+let g:netrw_dirhist_2='/home/breno/dev/codeby/usaflex/usaflex.custom-login'
+let g:netrw_dirhist_1='/home/breno/dev/codeby/usaflex'
+let g:netrw_dirhist_0='/home/breno/dev/codeby/usaflex/usaflex.custom-minicart/react/components/FreeShipping'
