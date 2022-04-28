@@ -11,6 +11,9 @@ Plug 'vim-airline/vim-airline-themes'
 
 Plug 'Yggdroot/indentLine'
 
+Plug 'junegunn/fzf', { 'do': { -> fzf#install()  }  }
+Plug 'junegunn/fzf.vim'
+
 Plug 'pangloss/vim-javascript'
 Plug 'styled-components/vim-styled-components', { 'branch': 'develop' }
 Plug 'sheerun/vim-polyglot'
@@ -36,6 +39,10 @@ set background=dark
 set termguicolors
 
 set encoding=UTF-8
+
+map <C-m> :NERDTreeToggle<CR>
+
+let g:fzf_preview_window = ['right:50%', 'ctrl-/']
 
 let ayucolor="dark"
 colorscheme ayu
@@ -64,4 +71,6 @@ if exists('+termguicolors')
   let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
   let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
   set termguicolors  
-endif  
+endif
+
+
