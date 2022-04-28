@@ -36,6 +36,8 @@ syntax on
 
 set background=dark
 
+let NERDTreeShowHidden=1
+
 set termguicolors
 
 set encoding=UTF-8
